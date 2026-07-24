@@ -99,7 +99,7 @@ terraform destroy
 ![Terraform Output](screenshots/05__terraform-output.png)
 
 ### AWS Console
-![AWS EC2 Console](screenshots/06__aws-console-ec2.png)
+![AWS EC2 Console](screenshots/06__EC2__Management-Console.png)
 
 ### Terraform Destroy
 ![Terraform Destroy](screenshots/07__terraform-destroy.png)
