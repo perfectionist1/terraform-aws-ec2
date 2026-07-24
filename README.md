@@ -13,30 +13,37 @@ It is part of my AWS & Terraform learning journey.
 ---
 
 ## Project Structure
-main.tf
-variables.tf
-outputs.tf
-README.md
-.gitingnore
-screenshots/
 
-
+```
+terraform-aws-ec2/
+│
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── README.md
+├── .gitignore
+└── screenshots/
+    ├── 01__terraform-init.png
+    ├── 02__terraform-validate.png
+    ├── 03__terraform-plan.png
+    ├── 04__terraform-apply.png
+    ├── 05__terraform-output.png
+    ├── 06__aws-console.png
+    └── 07__terraform-destroy.png
+```
 
 ---
 
 ## Resources Created
-
 - EC2 Instance
 - AWS Provider Configuration in main.tf
 
 ---
 
 ## Variables
-
 | Name   | Description         |
 |--------|---------------------|
 | region | The value of region |
-
 
 ---
 
@@ -53,25 +60,21 @@ terraform init
 ```
 
 Validate configuration
-
 ```bash
 terraform validate
 ```
 
 Preview changes
-
 ```bash
 terraform plan
 ```
 
 Create resources
-
 ```bash
 terraform apply
 ```
 
 Destroy resources
-
 ```bash
 terraform destroy
 ```
